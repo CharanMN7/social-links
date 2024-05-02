@@ -88,3 +88,18 @@ a {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 376px) {
+  body {
+    padding: 0;
+  }
+
+  #container {
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+
+  .attribution {
+    visibility: hidden;
+  }
+}
