@@ -90,12 +90,13 @@ a {
 }
 
 @media (max-width: 376px) {
+@media (max-width: 408px) {
   body {
     padding: 0;
   }
 
   #container {
-    margin: 1rem;
+    margin: 1rem auto;
     padding: 0.5rem;
   }
 
